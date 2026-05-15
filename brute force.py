@@ -8,9 +8,9 @@ import time
 
 # --- PARAMÈTRES --- 
 
-MAX_LENGTH = 6          # limite pédagogique (évite explosion) 
+MAX_LENGTH = 8          # limite pédagogique (évite explosion) 
 
-TIME_LIMIT = 100000
+TIME_LIMIT = 3600
 # secondes max avant arrêt 
 
   
@@ -31,7 +31,7 @@ if len(password) > MAX_LENGTH:
 
 # alphabet utilisé (modifiable pour démo) 
 
-chars = string.ascii_lowercase + string.digits 
+chars = string.ascii_lowercase + string.digits + string.ascii_uppercase 
 
   
 
